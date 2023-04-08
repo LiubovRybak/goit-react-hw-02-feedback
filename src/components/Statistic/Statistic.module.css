@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+
+.good {
+  color: rgb(34, 221, 34);
+}
+
+.neutral {
+  color: rgb(231, 206, 15);
+}
+
+.bad {
+  color: rgb(212, 11, 11);
+}
+
+.total {
+  color: blueviolet;
+}
+
+.feedback {
+  color: coral;
+}

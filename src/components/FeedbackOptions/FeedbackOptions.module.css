@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.button {
+  border: 1px solid #66b1be;
+  border-radius: 5x;
+  background-color: rgb(157, 199, 185);
+  cursor: pointer;
+}

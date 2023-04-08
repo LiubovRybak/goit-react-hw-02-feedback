@@ -18,33 +18,7 @@ li {
   list-style: none;
 }
 
-.button {
-  margin-left: 10px;
-  border: 1px solid #66b1be;
-  border-radius: 5x;
-  background-color: rgb(157, 199, 185);
-}
-
-.title {
-  color: rgb(7, 92, 95);
-}
-
-.good {
-  color: rgb(34, 221, 34);
-}
-
-.neutral {
-  color: rgb(231, 206, 15);
-}
-
-.bad {
-  color: rgb(212, 11, 11);
-}
-
-.total {
-  color: blueviolet;
-}
-
-.feedback {
-  color: coral;
+p {
+  display: flex;
+  justify-content: center;
 }

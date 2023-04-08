@@ -1,9 +1,11 @@
+import css from './FeedbackOptions.module.css';
+
 export const FeedbackOptions = ({ names, onClickFeedback }) => {
   return (
-    <div>
+    <div className={css.container}>
       {names.map(name => (
         <button
-          className="button"
+          className={css.button}
           key={name}
           onClick={() => onClickFeedback(name)}
         >
