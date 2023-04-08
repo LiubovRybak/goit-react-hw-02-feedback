@@ -17,8 +17,3 @@ code {
 li {
   list-style: none;
 }
-
-p {
-  display: flex;
-  justify-content: center;
-}
